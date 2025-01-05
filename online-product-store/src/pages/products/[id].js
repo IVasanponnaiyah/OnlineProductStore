@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../../context/CartContext';
 
 export default function ProductDetails({ product }) {
     const router = useRouter();

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../../context/CartContext';
 import Pagination from '../Pagination'
 
 export default function ProductsPage() {
